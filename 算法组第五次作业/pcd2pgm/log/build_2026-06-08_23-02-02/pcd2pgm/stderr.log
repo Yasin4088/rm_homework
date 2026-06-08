@@ -1,1 +1,0 @@
-[0mCMake Error: The current CMakeCache.txt directory /media/robot/Ventoy/算法组作业/算法组第五次作业/pcd2pgm/build/pcd2pgm/CMakeCache.txt is different than the directory /home/robot/pcd2pgm/build/pcd2pgm where CMakeCache.txt was created. This may result in binaries being created in the wrong place. If you are not sure, reedit the CMakeCache.txt[0m
