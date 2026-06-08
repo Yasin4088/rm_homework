@@ -1,1 +1,16 @@
+*/build/
+*/devel/
+*/install/
+*/log/
+.vscode/
+.cursor/
+.cache/
+__pycache__/
+.catkin_workspace
+*.gv
+*.pdf
+*.pcd
+devel/
 build/
+install/
+log/

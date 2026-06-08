@@ -1,0 +1,230 @@
+[0.000000] (-) TimerEvent: {}
+[0.000241] (pcd2pgm) JobQueued: {'identifier': 'pcd2pgm', 'dependencies': OrderedDict()}
+[0.000359] (pcd2pgm) JobStarted: {'identifier': 'pcd2pgm'}
+[0.005203] (pcd2pgm) JobProgress: {'identifier': 'pcd2pgm', 'progress': 'cmake'}
+[0.005745] (pcd2pgm) Command: {'cmd': ['/usr/bin/cmake', '/home/robot/pcd2pgm/src', '-DAMENT_CMAKE_SYMLINK_INSTALL=1', '-DCMAKE_INSTALL_PREFIX=/home/robot/pcd2pgm/install/pcd2pgm'], 'cwd': '/home/robot/pcd2pgm/build/pcd2pgm', 'env': OrderedDict([('LESSOPEN', '| /usr/bin/lesspipe %s'), ('ANTHROPIC_MODEL', 'deepseek-v4-pro[1m]'), ('HTTPS_PROXY', 'http://127.0.0.1:7890/'), ('no_proxy', 'localhost,127.0.0.0/8,::1'), ('LANGUAGE', 'zh_CN:zh'), ('USER', 'robot'), ('all_proxy', 'socks://127.0.0.1:7891/'), ('XDG_SESSION_TYPE', 'x11'), ('ALLUSERSPROFILE', '/opt/MVS/MVFG'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/home/robot/pcd2pgm/install/pcd2pgm/lib:/home/robot/ros_ws/install/hik_camera_ros2_driver/lib:/home/robot/transistor_rm2026_algorithm_visual_ws/install/auto_aim/lib:/opt/MVS/lib/64:/opt/MVS/lib/32:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib:/opt/MVS/lib/64:/opt/MVS/lib/32:/opt/MVS/lib/64:/opt/MVS/lib/32:'), ('HOME', '/home/robot'), ('OLDPWD', '/home/robot'), ('DESKTOP_SESSION', 'ubuntu'), ('NO_PROXY', 'localhost,127.0.0.0/8,::1'), ('NVM_BIN', '/home/robot/.nvm/versions/node/v24.15.0/bin'), ('NVM_INC', '/home/robot/.nvm/versions/node/v24.15.0/include/node'), ('ANTHROPIC_DEFAULT_SONNET_MODEL', 'deepseek-v4-pro[1m]'), ('ROS_PYTHON_VERSION', '3'), ('GNOME_SHELL_SESSION_MODE', 'ubuntu'), ('GTK_MODULES', 'gail:atk-bridge'), ('DBUS_STARTER_BUS_TYPE', 'session'), ('SYSTEMD_EXEC_PID', '2193'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus,guid=c16a52e7068d1ca6ed733fab6a26c122'), ('COLORTERM', 'truecolor'), ('NVM_DIR', '/home/robot/.nvm'), ('https_proxy', 'http://127.0.0.1:7890/'), ('COLCON_PREFIX_PATH', '/home/robot/pcd2pgm/install:/home/robot/ros_ws/install:/home/robot/transistor_rm2026_algorithm_visual_ws/install'), ('CLAUDE_CODE_EFFORT_LEVEL', 'max'), ('ROS_DISTRO', 'humble'), ('GTK_IM_MODULE', 'ibus'), ('LOGNAME', 'robot'), ('ALL_PROXY', 'socks://127.0.0.1:7891/'), ('http_proxy', 'http://127.0.0.1:7890/'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('PKG_CONFIG_PATH', '/opt/intel/oneapi/vtune/2026.0/include/pkgconfig/lib64::/usr/local/lib/pkgconfig'), ('XDG_SESSION_CLASS', 'user'), ('VTUNE_PROFILER_2026_DIR', '/opt/intel/oneapi/vtune/2026.0'), ('USERNAME', 'robot'), ('ANTHROPIC_BASE_URL', 'https://api.deepseek.com/anthropic'), ('TERM', 'xterm-256color'), ('GNOME_DESKTOP_SESSION_ID', 'this-is-deprecated'), ('ROS_LOCALHOST_ONLY', '0'), ('WINDOWPATH', '2'), ('MVCAM_SDK_PATH', '/opt/MVS'), ('ANTHROPIC_DEFAULT_OPUS_MODEL', 'deepseek-v4-pro[1m]'), ('PATH', '/opt/intel/oneapi/vtune/2026.0/bin64:/home/robot/.nvm/versions/node/v24.15.0/bin:/opt/ros/humble/bin:/home/robot/.local/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin'), ('SESSION_MANAGER', 'local/ROS2:@/tmp/.ICE-unix/2193,unix/ROS2:/tmp/.ICE-unix/2193'), ('ONEAPI_ROOT', '/opt/intel/oneapi'), ('MVCAM_GENICAM_CLPROTOCOL', '/opt/MVS/lib/CLProtocol'), ('XDG_MENU_PREFIX', 'gnome-'), ('GNOME_TERMINAL_SCREEN', '/org/gnome/Terminal/screen/b8b59d04_ccd4_4b99_b89e_c3a031e52730'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('DISPLAY', ':0'), ('LANG', 'zh_CN.UTF-8'), ('XDG_CURRENT_DESKTOP', 'ubuntu:GNOME'), ('ANTHROPIC_DEFAULT_HAIKU_MODEL', 'deepseek-v4-flash'), ('XMODIFIERS', '@im=ibus'), ('XDG_SESSION_DESKTOP', 'ubuntu'), ('XAUTHORITY', '/run/user/1000/gdm/Xauthority'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('GNOME_TERMINAL_SERVICE', ':1.203'), ('SSH_AGENT_LAUNCHER', 'gnome-keyring'), ('SSH_AUTH_SOCK', '/run/user/1000/keyring/ssh'), ('AMENT_PREFIX_PATH', '/home/robot/pcd2pgm/install/pcd2pgm:/home/robot/ros_ws/install/hik_camera_ros2_driver:/home/robot/transistor_rm2026_algorithm_visual_ws/install/shm_python_processor_pkg:/home/robot/transistor_rm2026_algorithm_visual_ws/install/auto_aim:/opt/ros/humble'), ('SHELL', '/bin/bash'), ('ANTHROPIC_AUTH_TOKEN', 'sk-b08b54103cf347779c118dd25a193fcb'), ('QT_ACCESSIBILITY', '1'), ('GDMSESSION', 'ubuntu'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('GPG_AGENT_INFO', '/run/user/1000/gnupg/S.gpg-agent:0:1'), ('SETVARS_COMPLETED', '1'), ('QT_IM_MODULE', 'ibus'), ('PWD', '/home/robot/pcd2pgm/build/pcd2pgm'), ('VTUNE_PROFILER_DIR', '/opt/intel/oneapi/vtune/2026.0'), ('XDG_CONFIG_DIRS', '/etc/xdg/xdg-ubuntu:/etc/xdg'), ('NVM_CD_FLAGS', ''), ('DBUS_STARTER_ADDRESS', 'unix:path=/run/user/1000/bus,guid=c16a52e7068d1ca6ed733fab6a26c122'), ('XDG_DATA_DIRS', '/usr/share/ubuntu:/usr/share/gnome:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop'), ('PYTHONPATH', '/home/robot/transistor_rm2026_algorithm_visual_ws/install/shm_python_processor_pkg/lib/python3.10/site-packages:/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('HTTP_PROXY', 'http://127.0.0.1:7890/'), ('MVCAM_SDK_VERSION', ''), ('COLCON', '1'), ('CLAUDE_CODE_SUBAGENT_MODEL', 'deepseek-v4-flash'), ('VTE_VERSION', '6800'), ('CMAKE_PREFIX_PATH', '/home/robot/pcd2pgm/install/pcd2pgm:/home/robot/ros_ws/install/hik_camera_ros2_driver:/home/robot/transistor_rm2026_algorithm_visual_ws/install/auto_aim:/home/robot/transistor_rm2026_algorithm_visual_ws/install/shm_python_processor_pkg:/opt/ros/humble'), ('MVCAM_COMMON_RUNENV', '/opt/MVS/lib')]), 'shell': False}
+[0.064295] (pcd2pgm) StdoutLine: {'line': b'-- The C compiler identification is GNU 11.4.0\n'}
+[0.099551] (-) TimerEvent: {}
+[0.123898] (pcd2pgm) StdoutLine: {'line': b'-- The CXX compiler identification is GNU 11.4.0\n'}
+[0.129655] (pcd2pgm) StdoutLine: {'line': b'-- Detecting C compiler ABI info\n'}
+[0.199771] (-) TimerEvent: {}
+[0.204971] (pcd2pgm) StdoutLine: {'line': b'-- Detecting C compiler ABI info - done\n'}
+[0.213436] (pcd2pgm) StdoutLine: {'line': b'-- Check for working C compiler: /usr/bin/cc - skipped\n'}
+[0.213820] (pcd2pgm) StdoutLine: {'line': b'-- Detecting C compile features\n'}
+[0.214103] (pcd2pgm) StdoutLine: {'line': b'-- Detecting C compile features - done\n'}
+[0.217699] (pcd2pgm) StdoutLine: {'line': b'-- Detecting CXX compiler ABI info\n'}
+[0.300021] (-) TimerEvent: {}
+[0.316261] (pcd2pgm) StdoutLine: {'line': b'-- Detecting CXX compiler ABI info - done\n'}
+[0.326043] (pcd2pgm) StdoutLine: {'line': b'-- Check for working CXX compiler: /usr/bin/c++ - skipped\n'}
+[0.326468] (pcd2pgm) StdoutLine: {'line': b'-- Detecting CXX compile features\n'}
+[0.326848] (pcd2pgm) StdoutLine: {'line': b'-- Detecting CXX compile features - done\n'}
+[0.328589] (pcd2pgm) StdoutLine: {'line': b'-- Found ament_cmake_auto: 1.3.14 (/opt/ros/humble/share/ament_cmake_auto/cmake)\n'}
+[0.400255] (-) TimerEvent: {}
+[0.459521] (pcd2pgm) StdoutLine: {'line': b'-- Found Python3: /usr/bin/python3 (found version "3.10.12") found components: Interpreter \n'}
+[0.500421] (-) TimerEvent: {}
+[0.504635] (pcd2pgm) StdoutLine: {'line': b'-- Override CMake install command with custom implementation using symlinks instead of copying resources\n'}
+[0.592913] (pcd2pgm) StdoutLine: {'line': b'-- Found rosidl_generator_c: 3.1.8 (/opt/ros/humble/share/rosidl_generator_c/cmake)\n'}
+[0.595841] (pcd2pgm) StdoutLine: {'line': b'-- Found rosidl_adapter: 3.1.8 (/opt/ros/humble/share/rosidl_adapter/cmake)\n'}
+[0.600511] (-) TimerEvent: {}
+[0.601259] (pcd2pgm) StdoutLine: {'line': b'-- Found rosidl_generator_cpp: 3.1.8 (/opt/ros/humble/share/rosidl_generator_cpp/cmake)\n'}
+[0.608891] (pcd2pgm) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c\n'}
+[0.619779] (pcd2pgm) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp\n'}
+[0.648152] (pcd2pgm) StdoutLine: {'line': b'-- Found rmw_implementation_cmake: 6.1.2 (/opt/ros/humble/share/rmw_implementation_cmake/cmake)\n'}
+[0.649631] (pcd2pgm) StdoutLine: {'line': b'-- Found rmw_fastrtps_cpp: 6.2.10 (/opt/ros/humble/share/rmw_fastrtps_cpp/cmake)\n'}
+[0.700634] (-) TimerEvent: {}
+[0.732024] (pcd2pgm) StdoutLine: {'line': b'-- Found OpenSSL: /usr/lib/x86_64-linux-gnu/libcrypto.so (found version "3.0.2")  \n'}
+[0.755692] (pcd2pgm) StdoutLine: {'line': b'-- Found FastRTPS: /opt/ros/humble/include  \n'}
+[0.796168] (pcd2pgm) StdoutLine: {'line': b"-- Using RMW implementation 'rmw_fastrtps_cpp' as default\n"}
+[0.800748] (-) TimerEvent: {}
+[0.805131] (pcd2pgm) StdoutLine: {'line': b'-- Looking for pthread.h\n'}
+[0.890443] (pcd2pgm) StdoutLine: {'line': b'-- Looking for pthread.h - found\n'}
+[0.890606] (pcd2pgm) StdoutLine: {'line': b'-- Performing Test CMAKE_HAVE_LIBC_PTHREAD\n'}
+[0.900852] (-) TimerEvent: {}
+[0.986606] (pcd2pgm) StdoutLine: {'line': b'-- Performing Test CMAKE_HAVE_LIBC_PTHREAD - Success\n'}
+[0.987298] (pcd2pgm) StdoutLine: {'line': b'-- Found Threads: TRUE  \n'}
+[1.001012] (-) TimerEvent: {}
+[1.101204] (-) TimerEvent: {}
+[1.111605] (pcd2pgm) StdoutLine: {'line': b"-- Checking for module 'eigen3'\n"}
+[1.124572] (pcd2pgm) StdoutLine: {'line': b'--   Found eigen3, version 3.4.0\n'}
+[1.171805] (pcd2pgm) StdoutLine: {'line': b'-- Found Eigen: /usr/include/eigen3 (Required is at least version "3.1") \n'}
+[1.172017] (pcd2pgm) StdoutLine: {'line': b'-- Eigen found (include: /usr/include/eigen3, version: 3.4.0)\n'}
+[1.201287] (-) TimerEvent: {}
+[1.204579] (pcd2pgm) StdoutLine: {'line': b"-- Checking for module 'flann'\n"}
+[1.220054] (pcd2pgm) StdoutLine: {'line': b'--   Found flann, version 1.9.1\n'}
+[1.282681] (pcd2pgm) StdoutLine: {'line': b'-- Found FLANN: /usr/lib/x86_64-linux-gnu/libflann_cpp.so  \n'}
+[1.283003] (pcd2pgm) StdoutLine: {'line': b'-- FLANN found (include: /usr/include, lib: /usr/lib/x86_64-linux-gnu/libflann_cpp.so)\n'}
+[1.301397] (-) TimerEvent: {}
+[1.401706] (-) TimerEvent: {}
+[1.502067] (-) TimerEvent: {}
+[1.602478] (-) TimerEvent: {}
+[1.702886] (-) TimerEvent: {}
+[1.803298] (-) TimerEvent: {}
+[1.903669] (-) TimerEvent: {}
+[2.003990] (-) TimerEvent: {}
+[2.104339] (-) TimerEvent: {}
+[2.193474] (pcd2pgm) StdoutLine: {'line': b"-- Checking for module 'libusb-1.0'\n"}
+[2.204464] (-) TimerEvent: {}
+[2.212776] (pcd2pgm) StdoutLine: {'line': b'--   Found libusb-1.0, version 1.0.25\n'}
+[2.260827] (pcd2pgm) StdoutLine: {'line': b'-- Found libusb: /usr/lib/x86_64-linux-gnu/libusb-1.0.so  \n'}
+[2.262427] (pcd2pgm) StdoutLine: {'line': b'-- OpenNI found (version: 1.5.4.0, include: /usr/include/ni, lib: /usr/lib/libOpenNI.so;libusb::libusb)\n'}
+[2.304594] (-) TimerEvent: {}
+[2.345050] (pcd2pgm) StdoutLine: {'line': b'-- OpenNI2 found (version: 2.2.0.33, include: /usr/include/openni2, lib: /usr/lib/x86_64-linux-gnu/libOpenNI2.so;libusb::libusb)\n'}
+[2.404771] (-) TimerEvent: {}
+[2.462965] (pcd2pgm) StdoutLine: {'line': b'-- Eigen found (include: /usr/include/eigen3, version: 3.4.0)\n'}
+[2.472212] (pcd2pgm) StdoutLine: {'line': b'-- OpenNI found (version: 1.5.4.0, include: /usr/include/ni, lib: /usr/lib/libOpenNI.so;libusb::libusb)\n'}
+[2.481477] (pcd2pgm) StdoutLine: {'line': b'-- OpenNI2 found (version: 2.2.0.33, include: /usr/include/openni2, lib: /usr/lib/x86_64-linux-gnu/libOpenNI2.so;libusb::libusb)\n'}
+[2.504968] (-) TimerEvent: {}
+[2.599527] (pcd2pgm) StdoutLine: {'line': b'-- Found Qhull version 8.0.2\n'}
+[2.605105] (-) TimerEvent: {}
+[2.701951] (pcd2pgm) StdoutLine: {'line': b'-- OpenNI found (version: 1.5.4.0, include: /usr/include/ni, lib: /usr/lib/libOpenNI.so;libusb::libusb)\n'}
+[2.705273] (-) TimerEvent: {}
+[2.805499] (-) TimerEvent: {}
+[2.808350] (pcd2pgm) StdoutLine: {'line': b'-- Found PCL_COMMON: /usr/lib/x86_64-linux-gnu/libpcl_common.so  \n'}
+[2.809043] (pcd2pgm) StdoutLine: {'line': b'-- Found PCL_KDTREE: /usr/lib/x86_64-linux-gnu/libpcl_kdtree.so  \n'}
+[2.809579] (pcd2pgm) StdoutLine: {'line': b'-- Found PCL_OCTREE: /usr/lib/x86_64-linux-gnu/libpcl_octree.so  \n'}
+[2.809983] (pcd2pgm) StdoutLine: {'line': b'-- Found PCL_SEARCH: /usr/lib/x86_64-linux-gnu/libpcl_search.so  \n'}
+[2.810626] (pcd2pgm) StdoutLine: {'line': b'-- Found PCL_SAMPLE_CONSENSUS: /usr/lib/x86_64-linux-gnu/libpcl_sample_consensus.so  \n'}
+[2.811060] (pcd2pgm) StdoutLine: {'line': b'-- Found PCL_FILTERS: /usr/lib/x86_64-linux-gnu/libpcl_filters.so  \n'}
+[2.811290] (pcd2pgm) StdoutLine: {'line': b'-- Found PCL_2D: /usr/include/pcl-1.12  \n'}
+[2.811650] (pcd2pgm) StdoutLine: {'line': b'-- Found PCL_GEOMETRY: /usr/include/pcl-1.12  \n'}
+[2.812180] (pcd2pgm) StdoutLine: {'line': b'-- Found PCL_IO: /usr/lib/x86_64-linux-gnu/libpcl_io.so  \n'}
+[2.812897] (pcd2pgm) StdoutLine: {'line': b'-- Found PCL_FEATURES: /usr/lib/x86_64-linux-gnu/libpcl_features.so  \n'}
+[2.813430] (pcd2pgm) StdoutLine: {'line': b'-- Found PCL_ML: /usr/lib/x86_64-linux-gnu/libpcl_ml.so  \n'}
+[2.814020] (pcd2pgm) StdoutLine: {'line': b'-- Found PCL_SEGMENTATION: /usr/lib/x86_64-linux-gnu/libpcl_segmentation.so  \n'}
+[2.814655] (pcd2pgm) StdoutLine: {'line': b'-- Found PCL_VISUALIZATION: /usr/lib/x86_64-linux-gnu/libpcl_visualization.so  \n'}
+[2.815304] (pcd2pgm) StdoutLine: {'line': b'-- Found PCL_SURFACE: /usr/lib/x86_64-linux-gnu/libpcl_surface.so  \n'}
+[2.815832] (pcd2pgm) StdoutLine: {'line': b'-- Found PCL_REGISTRATION: /usr/lib/x86_64-linux-gnu/libpcl_registration.so  \n'}
+[2.816454] (pcd2pgm) StdoutLine: {'line': b'-- Found PCL_KEYPOINTS: /usr/lib/x86_64-linux-gnu/libpcl_keypoints.so  \n'}
+[2.817069] (pcd2pgm) StdoutLine: {'line': b'-- Found PCL_TRACKING: /usr/lib/x86_64-linux-gnu/libpcl_tracking.so  \n'}
+[2.817665] (pcd2pgm) StdoutLine: {'line': b'-- Found PCL_RECOGNITION: /usr/lib/x86_64-linux-gnu/libpcl_recognition.so  \n'}
+[2.818258] (pcd2pgm) StdoutLine: {'line': b'-- Found PCL_STEREO: /usr/lib/x86_64-linux-gnu/libpcl_stereo.so  \n'}
+[2.818980] (pcd2pgm) StdoutLine: {'line': b'-- Found PCL_APPS: /usr/lib/x86_64-linux-gnu/libpcl_apps.so  \n'}
+[2.819395] (pcd2pgm) StdoutLine: {'line': b'-- Found PCL_IN_HAND_SCANNER: /usr/include/pcl-1.12  \n'}
+[2.819580] (pcd2pgm) StdoutLine: {'line': b'-- Found PCL_MODELER: /usr/include/pcl-1.12  \n'}
+[2.819779] (pcd2pgm) StdoutLine: {'line': b'-- Found PCL_POINT_CLOUD_EDITOR: /usr/include/pcl-1.12  \n'}
+[2.820379] (pcd2pgm) StdoutLine: {'line': b'-- Found PCL_OUTOFCORE: /usr/lib/x86_64-linux-gnu/libpcl_outofcore.so  \n'}
+[2.821053] (pcd2pgm) StdoutLine: {'line': b'-- Found PCL_PEOPLE: /usr/lib/x86_64-linux-gnu/libpcl_people.so  \n'}
+[2.830501] (pcd2pgm) StdoutLine: {'line': b'-- Found ament_lint_auto: 0.12.15 (/opt/ros/humble/share/ament_lint_auto/cmake)\n'}
+[2.854120] (pcd2pgm) StdoutLine: {'line': b"-- Added test 'xmllint' to check XML markup files\n"}
+[2.854454] (pcd2pgm) StdoutLine: {'line': b"-- Added test 'copyright' to check source files copyright and LICENSE\n"}
+[2.856113] (pcd2pgm) StdoutLine: {'line': b'-- Configuring done\n'}
+[2.874758] (pcd2pgm) StdoutLine: {'line': b'-- Generating done\n'}
+[2.880856] (pcd2pgm) StdoutLine: {'line': b'-- Build files have been written to: /home/robot/pcd2pgm/build/pcd2pgm\n'}
+[2.891075] (pcd2pgm) CommandEnded: {'returncode': 0}
+[2.891848] (pcd2pgm) JobProgress: {'identifier': 'pcd2pgm', 'progress': 'build'}
+[2.892659] (pcd2pgm) Command: {'cmd': ['/usr/bin/cmake', '--build', '/home/robot/pcd2pgm/build/pcd2pgm', '--', '-j24', '-l24'], 'cwd': '/home/robot/pcd2pgm/build/pcd2pgm', 'env': OrderedDict([('LESSOPEN', '| /usr/bin/lesspipe %s'), ('ANTHROPIC_MODEL', 'deepseek-v4-pro[1m]'), ('HTTPS_PROXY', 'http://127.0.0.1:7890/'), ('no_proxy', 'localhost,127.0.0.0/8,::1'), ('LANGUAGE', 'zh_CN:zh'), ('USER', 'robot'), ('all_proxy', 'socks://127.0.0.1:7891/'), ('XDG_SESSION_TYPE', 'x11'), ('ALLUSERSPROFILE', '/opt/MVS/MVFG'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/home/robot/pcd2pgm/install/pcd2pgm/lib:/home/robot/ros_ws/install/hik_camera_ros2_driver/lib:/home/robot/transistor_rm2026_algorithm_visual_ws/install/auto_aim/lib:/opt/MVS/lib/64:/opt/MVS/lib/32:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib:/opt/MVS/lib/64:/opt/MVS/lib/32:/opt/MVS/lib/64:/opt/MVS/lib/32:'), ('HOME', '/home/robot'), ('OLDPWD', '/home/robot'), ('DESKTOP_SESSION', 'ubuntu'), ('NO_PROXY', 'localhost,127.0.0.0/8,::1'), ('NVM_BIN', '/home/robot/.nvm/versions/node/v24.15.0/bin'), ('NVM_INC', '/home/robot/.nvm/versions/node/v24.15.0/include/node'), ('ANTHROPIC_DEFAULT_SONNET_MODEL', 'deepseek-v4-pro[1m]'), ('ROS_PYTHON_VERSION', '3'), ('GNOME_SHELL_SESSION_MODE', 'ubuntu'), ('GTK_MODULES', 'gail:atk-bridge'), ('DBUS_STARTER_BUS_TYPE', 'session'), ('SYSTEMD_EXEC_PID', '2193'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus,guid=c16a52e7068d1ca6ed733fab6a26c122'), ('COLORTERM', 'truecolor'), ('NVM_DIR', '/home/robot/.nvm'), ('https_proxy', 'http://127.0.0.1:7890/'), ('COLCON_PREFIX_PATH', '/home/robot/pcd2pgm/install:/home/robot/ros_ws/install:/home/robot/transistor_rm2026_algorithm_visual_ws/install'), ('CLAUDE_CODE_EFFORT_LEVEL', 'max'), ('ROS_DISTRO', 'humble'), ('GTK_IM_MODULE', 'ibus'), ('LOGNAME', 'robot'), ('ALL_PROXY', 'socks://127.0.0.1:7891/'), ('http_proxy', 'http://127.0.0.1:7890/'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('PKG_CONFIG_PATH', '/opt/intel/oneapi/vtune/2026.0/include/pkgconfig/lib64::/usr/local/lib/pkgconfig'), ('XDG_SESSION_CLASS', 'user'), ('VTUNE_PROFILER_2026_DIR', '/opt/intel/oneapi/vtune/2026.0'), ('USERNAME', 'robot'), ('ANTHROPIC_BASE_URL', 'https://api.deepseek.com/anthropic'), ('TERM', 'xterm-256color'), ('GNOME_DESKTOP_SESSION_ID', 'this-is-deprecated'), ('ROS_LOCALHOST_ONLY', '0'), ('WINDOWPATH', '2'), ('MVCAM_SDK_PATH', '/opt/MVS'), ('ANTHROPIC_DEFAULT_OPUS_MODEL', 'deepseek-v4-pro[1m]'), ('PATH', '/opt/intel/oneapi/vtune/2026.0/bin64:/home/robot/.nvm/versions/node/v24.15.0/bin:/opt/ros/humble/bin:/home/robot/.local/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin'), ('SESSION_MANAGER', 'local/ROS2:@/tmp/.ICE-unix/2193,unix/ROS2:/tmp/.ICE-unix/2193'), ('ONEAPI_ROOT', '/opt/intel/oneapi'), ('MVCAM_GENICAM_CLPROTOCOL', '/opt/MVS/lib/CLProtocol'), ('XDG_MENU_PREFIX', 'gnome-'), ('GNOME_TERMINAL_SCREEN', '/org/gnome/Terminal/screen/b8b59d04_ccd4_4b99_b89e_c3a031e52730'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('DISPLAY', ':0'), ('LANG', 'zh_CN.UTF-8'), ('XDG_CURRENT_DESKTOP', 'ubuntu:GNOME'), ('ANTHROPIC_DEFAULT_HAIKU_MODEL', 'deepseek-v4-flash'), ('XMODIFIERS', '@im=ibus'), ('XDG_SESSION_DESKTOP', 'ubuntu'), ('XAUTHORITY', '/run/user/1000/gdm/Xauthority'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('GNOME_TERMINAL_SERVICE', ':1.203'), ('SSH_AGENT_LAUNCHER', 'gnome-keyring'), ('SSH_AUTH_SOCK', '/run/user/1000/keyring/ssh'), ('AMENT_PREFIX_PATH', '/home/robot/pcd2pgm/install/pcd2pgm:/home/robot/ros_ws/install/hik_camera_ros2_driver:/home/robot/transistor_rm2026_algorithm_visual_ws/install/shm_python_processor_pkg:/home/robot/transistor_rm2026_algorithm_visual_ws/install/auto_aim:/opt/ros/humble'), ('SHELL', '/bin/bash'), ('ANTHROPIC_AUTH_TOKEN', 'sk-b08b54103cf347779c118dd25a193fcb'), ('QT_ACCESSIBILITY', '1'), ('GDMSESSION', 'ubuntu'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('GPG_AGENT_INFO', '/run/user/1000/gnupg/S.gpg-agent:0:1'), ('SETVARS_COMPLETED', '1'), ('QT_IM_MODULE', 'ibus'), ('PWD', '/home/robot/pcd2pgm/build/pcd2pgm'), ('VTUNE_PROFILER_DIR', '/opt/intel/oneapi/vtune/2026.0'), ('XDG_CONFIG_DIRS', '/etc/xdg/xdg-ubuntu:/etc/xdg'), ('NVM_CD_FLAGS', ''), ('DBUS_STARTER_ADDRESS', 'unix:path=/run/user/1000/bus,guid=c16a52e7068d1ca6ed733fab6a26c122'), ('XDG_DATA_DIRS', '/usr/share/ubuntu:/usr/share/gnome:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop'), ('PYTHONPATH', '/home/robot/transistor_rm2026_algorithm_visual_ws/install/shm_python_processor_pkg/lib/python3.10/site-packages:/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('HTTP_PROXY', 'http://127.0.0.1:7890/'), ('MVCAM_SDK_VERSION', ''), ('COLCON', '1'), ('CLAUDE_CODE_SUBAGENT_MODEL', 'deepseek-v4-flash'), ('VTE_VERSION', '6800'), ('CMAKE_PREFIX_PATH', '/home/robot/pcd2pgm/install/pcd2pgm:/home/robot/ros_ws/install/hik_camera_ros2_driver:/home/robot/transistor_rm2026_algorithm_visual_ws/install/auto_aim:/home/robot/transistor_rm2026_algorithm_visual_ws/install/shm_python_processor_pkg:/opt/ros/humble'), ('MVCAM_COMMON_RUNENV', '/opt/MVS/lib')]), 'shell': False}
+[2.905595] (-) TimerEvent: {}
+[2.946068] (pcd2pgm) StdoutLine: {'line': b'[ 25%] \x1b[32mBuilding CXX object CMakeFiles/pcd2pgm_node.dir/rclcpp_components/node_main_pcd2pgm_node.cpp.o\x1b[0m\n'}
+[2.946568] (pcd2pgm) StdoutLine: {'line': b'[ 50%] \x1b[32mBuilding CXX object CMakeFiles/pcd2pgm.dir/src/pcd2pgm.cpp.o\x1b[0m\n'}
+[3.005721] (-) TimerEvent: {}
+[3.106023] (-) TimerEvent: {}
+[3.206249] (-) TimerEvent: {}
+[3.306466] (-) TimerEvent: {}
+[3.406714] (-) TimerEvent: {}
+[3.507014] (-) TimerEvent: {}
+[3.607367] (-) TimerEvent: {}
+[3.707695] (-) TimerEvent: {}
+[3.808040] (-) TimerEvent: {}
+[3.908337] (-) TimerEvent: {}
+[4.008563] (-) TimerEvent: {}
+[4.108871] (-) TimerEvent: {}
+[4.209195] (-) TimerEvent: {}
+[4.309517] (-) TimerEvent: {}
+[4.409769] (-) TimerEvent: {}
+[4.510081] (-) TimerEvent: {}
+[4.610422] (-) TimerEvent: {}
+[4.710738] (-) TimerEvent: {}
+[4.796861] (pcd2pgm) StdoutLine: {'line': b'[ 75%] \x1b[32m\x1b[1mLinking CXX executable pcd2pgm_node\x1b[0m\n'}
+[4.810885] (-) TimerEvent: {}
+[4.877216] (pcd2pgm) StdoutLine: {'line': b'[ 75%] Built target pcd2pgm_node\n'}
+[4.911041] (-) TimerEvent: {}
+[5.011317] (-) TimerEvent: {}
+[5.111691] (-) TimerEvent: {}
+[5.212083] (-) TimerEvent: {}
+[5.312494] (-) TimerEvent: {}
+[5.412776] (-) TimerEvent: {}
+[5.513263] (-) TimerEvent: {}
+[5.613497] (-) TimerEvent: {}
+[5.713743] (-) TimerEvent: {}
+[5.813983] (-) TimerEvent: {}
+[5.914229] (-) TimerEvent: {}
+[6.014453] (-) TimerEvent: {}
+[6.114710] (-) TimerEvent: {}
+[6.215021] (-) TimerEvent: {}
+[6.315331] (-) TimerEvent: {}
+[6.415557] (-) TimerEvent: {}
+[6.515816] (-) TimerEvent: {}
+[6.616066] (-) TimerEvent: {}
+[6.716289] (-) TimerEvent: {}
+[6.816502] (-) TimerEvent: {}
+[6.916756] (-) TimerEvent: {}
+[7.016977] (-) TimerEvent: {}
+[7.117242] (-) TimerEvent: {}
+[7.217458] (-) TimerEvent: {}
+[7.317733] (-) TimerEvent: {}
+[7.417983] (-) TimerEvent: {}
+[7.518267] (-) TimerEvent: {}
+[7.618482] (-) TimerEvent: {}
+[7.718698] (-) TimerEvent: {}
+[7.819006] (-) TimerEvent: {}
+[7.919351] (-) TimerEvent: {}
+[8.019563] (-) TimerEvent: {}
+[8.119772] (-) TimerEvent: {}
+[8.220004] (-) TimerEvent: {}
+[8.320296] (-) TimerEvent: {}
+[8.420504] (-) TimerEvent: {}
+[8.520815] (-) TimerEvent: {}
+[8.621151] (-) TimerEvent: {}
+[8.721373] (-) TimerEvent: {}
+[8.821581] (-) TimerEvent: {}
+[8.921805] (-) TimerEvent: {}
+[9.022105] (-) TimerEvent: {}
+[9.122319] (-) TimerEvent: {}
+[9.222533] (-) TimerEvent: {}
+[9.322869] (-) TimerEvent: {}
+[9.347735] (pcd2pgm) StdoutLine: {'line': b'[100%] \x1b[32m\x1b[1mLinking CXX shared library libpcd2pgm.so\x1b[0m\n'}
+[9.423043] (-) TimerEvent: {}
+[9.523341] (-) TimerEvent: {}
+[9.623560] (-) TimerEvent: {}
+[9.723864] (-) TimerEvent: {}
+[9.824202] (-) TimerEvent: {}
+[9.842009] (pcd2pgm) StdoutLine: {'line': b'[100%] Built target pcd2pgm\n'}
+[9.853910] (pcd2pgm) CommandEnded: {'returncode': 0}
+[9.854646] (pcd2pgm) JobProgress: {'identifier': 'pcd2pgm', 'progress': 'install'}
+[9.864106] (pcd2pgm) Command: {'cmd': ['/usr/bin/cmake', '--install', '/home/robot/pcd2pgm/build/pcd2pgm'], 'cwd': '/home/robot/pcd2pgm/build/pcd2pgm', 'env': OrderedDict([('LESSOPEN', '| /usr/bin/lesspipe %s'), ('ANTHROPIC_MODEL', 'deepseek-v4-pro[1m]'), ('HTTPS_PROXY', 'http://127.0.0.1:7890/'), ('no_proxy', 'localhost,127.0.0.0/8,::1'), ('LANGUAGE', 'zh_CN:zh'), ('USER', 'robot'), ('all_proxy', 'socks://127.0.0.1:7891/'), ('XDG_SESSION_TYPE', 'x11'), ('ALLUSERSPROFILE', '/opt/MVS/MVFG'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/home/robot/pcd2pgm/install/pcd2pgm/lib:/home/robot/ros_ws/install/hik_camera_ros2_driver/lib:/home/robot/transistor_rm2026_algorithm_visual_ws/install/auto_aim/lib:/opt/MVS/lib/64:/opt/MVS/lib/32:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib:/opt/MVS/lib/64:/opt/MVS/lib/32:/opt/MVS/lib/64:/opt/MVS/lib/32:'), ('HOME', '/home/robot'), ('OLDPWD', '/home/robot'), ('DESKTOP_SESSION', 'ubuntu'), ('NO_PROXY', 'localhost,127.0.0.0/8,::1'), ('NVM_BIN', '/home/robot/.nvm/versions/node/v24.15.0/bin'), ('NVM_INC', '/home/robot/.nvm/versions/node/v24.15.0/include/node'), ('ANTHROPIC_DEFAULT_SONNET_MODEL', 'deepseek-v4-pro[1m]'), ('ROS_PYTHON_VERSION', '3'), ('GNOME_SHELL_SESSION_MODE', 'ubuntu'), ('GTK_MODULES', 'gail:atk-bridge'), ('DBUS_STARTER_BUS_TYPE', 'session'), ('SYSTEMD_EXEC_PID', '2193'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus,guid=c16a52e7068d1ca6ed733fab6a26c122'), ('COLORTERM', 'truecolor'), ('NVM_DIR', '/home/robot/.nvm'), ('https_proxy', 'http://127.0.0.1:7890/'), ('COLCON_PREFIX_PATH', '/home/robot/pcd2pgm/install:/home/robot/ros_ws/install:/home/robot/transistor_rm2026_algorithm_visual_ws/install'), ('CLAUDE_CODE_EFFORT_LEVEL', 'max'), ('ROS_DISTRO', 'humble'), ('GTK_IM_MODULE', 'ibus'), ('LOGNAME', 'robot'), ('ALL_PROXY', 'socks://127.0.0.1:7891/'), ('http_proxy', 'http://127.0.0.1:7890/'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('PKG_CONFIG_PATH', '/opt/intel/oneapi/vtune/2026.0/include/pkgconfig/lib64::/usr/local/lib/pkgconfig'), ('XDG_SESSION_CLASS', 'user'), ('VTUNE_PROFILER_2026_DIR', '/opt/intel/oneapi/vtune/2026.0'), ('USERNAME', 'robot'), ('ANTHROPIC_BASE_URL', 'https://api.deepseek.com/anthropic'), ('TERM', 'xterm-256color'), ('GNOME_DESKTOP_SESSION_ID', 'this-is-deprecated'), ('ROS_LOCALHOST_ONLY', '0'), ('WINDOWPATH', '2'), ('MVCAM_SDK_PATH', '/opt/MVS'), ('ANTHROPIC_DEFAULT_OPUS_MODEL', 'deepseek-v4-pro[1m]'), ('PATH', '/opt/intel/oneapi/vtune/2026.0/bin64:/home/robot/.nvm/versions/node/v24.15.0/bin:/opt/ros/humble/bin:/home/robot/.local/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin'), ('SESSION_MANAGER', 'local/ROS2:@/tmp/.ICE-unix/2193,unix/ROS2:/tmp/.ICE-unix/2193'), ('ONEAPI_ROOT', '/opt/intel/oneapi'), ('MVCAM_GENICAM_CLPROTOCOL', '/opt/MVS/lib/CLProtocol'), ('XDG_MENU_PREFIX', 'gnome-'), ('GNOME_TERMINAL_SCREEN', '/org/gnome/Terminal/screen/b8b59d04_ccd4_4b99_b89e_c3a031e52730'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('DISPLAY', ':0'), ('LANG', 'zh_CN.UTF-8'), ('XDG_CURRENT_DESKTOP', 'ubuntu:GNOME'), ('ANTHROPIC_DEFAULT_HAIKU_MODEL', 'deepseek-v4-flash'), ('XMODIFIERS', '@im=ibus'), ('XDG_SESSION_DESKTOP', 'ubuntu'), ('XAUTHORITY', '/run/user/1000/gdm/Xauthority'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('GNOME_TERMINAL_SERVICE', ':1.203'), ('SSH_AGENT_LAUNCHER', 'gnome-keyring'), ('SSH_AUTH_SOCK', '/run/user/1000/keyring/ssh'), ('AMENT_PREFIX_PATH', '/home/robot/pcd2pgm/install/pcd2pgm:/home/robot/ros_ws/install/hik_camera_ros2_driver:/home/robot/transistor_rm2026_algorithm_visual_ws/install/shm_python_processor_pkg:/home/robot/transistor_rm2026_algorithm_visual_ws/install/auto_aim:/opt/ros/humble'), ('SHELL', '/bin/bash'), ('ANTHROPIC_AUTH_TOKEN', 'sk-b08b54103cf347779c118dd25a193fcb'), ('QT_ACCESSIBILITY', '1'), ('GDMSESSION', 'ubuntu'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('GPG_AGENT_INFO', '/run/user/1000/gnupg/S.gpg-agent:0:1'), ('SETVARS_COMPLETED', '1'), ('QT_IM_MODULE', 'ibus'), ('PWD', '/home/robot/pcd2pgm/build/pcd2pgm'), ('VTUNE_PROFILER_DIR', '/opt/intel/oneapi/vtune/2026.0'), ('XDG_CONFIG_DIRS', '/etc/xdg/xdg-ubuntu:/etc/xdg'), ('NVM_CD_FLAGS', ''), ('DBUS_STARTER_ADDRESS', 'unix:path=/run/user/1000/bus,guid=c16a52e7068d1ca6ed733fab6a26c122'), ('XDG_DATA_DIRS', '/usr/share/ubuntu:/usr/share/gnome:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop'), ('PYTHONPATH', '/home/robot/transistor_rm2026_algorithm_visual_ws/install/shm_python_processor_pkg/lib/python3.10/site-packages:/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('HTTP_PROXY', 'http://127.0.0.1:7890/'), ('MVCAM_SDK_VERSION', ''), ('COLCON', '1'), ('CLAUDE_CODE_SUBAGENT_MODEL', 'deepseek-v4-flash'), ('VTE_VERSION', '6800'), ('CMAKE_PREFIX_PATH', '/home/robot/pcd2pgm/install/pcd2pgm:/home/robot/ros_ws/install/hik_camera_ros2_driver:/home/robot/transistor_rm2026_algorithm_visual_ws/install/auto_aim:/home/robot/transistor_rm2026_algorithm_visual_ws/install/shm_python_processor_pkg:/opt/ros/humble'), ('MVCAM_COMMON_RUNENV', '/opt/MVS/lib')]), 'shell': False}
+[9.870405] (pcd2pgm) StdoutLine: {'line': b'-- Install configuration: ""\n'}
+[9.871098] (pcd2pgm) StdoutLine: {'line': b'-- Execute custom install script\n'}
+[9.871456] (pcd2pgm) StdoutLine: {'line': b'-- Symlinking: /home/robot/pcd2pgm/install/pcd2pgm/lib/pcd2pgm/pcd2pgm_node\n'}
+[9.884008] (pcd2pgm) StdoutLine: {'line': b'-- Symlinking: /home/robot/pcd2pgm/install/pcd2pgm/include/pcd2pgm/pcd2pgm/pcd2pgm.hpp\n'}
+[9.896291] (pcd2pgm) StdoutLine: {'line': b'-- Symlinking: /home/robot/pcd2pgm/install/pcd2pgm/share/pcd2pgm/environment/library_path.sh\n'}
+[9.909141] (pcd2pgm) StdoutLine: {'line': b'-- Symlinking: /home/robot/pcd2pgm/install/pcd2pgm/share/pcd2pgm/environment/library_path.dsv\n'}
+[9.921891] (pcd2pgm) StdoutLine: {'line': b'-- Symlinking: /home/robot/pcd2pgm/install/pcd2pgm/lib/libpcd2pgm.so\n'}
+[9.924331] (-) TimerEvent: {}
+[9.934117] (pcd2pgm) StdoutLine: {'line': b'-- Symlinking: /home/robot/pcd2pgm/install/pcd2pgm/share/pcd2pgm/config/pcd2pgm.yaml\n'}
+[9.945976] (pcd2pgm) StdoutLine: {'line': b'-- Symlinking: /home/robot/pcd2pgm/install/pcd2pgm/share/pcd2pgm/launch/pcd2pgm_launch.py\n'}
+[9.956621] (pcd2pgm) StdoutLine: {'line': b'-- Symlinking: /home/robot/pcd2pgm/install/pcd2pgm/share/pcd2pgm/rviz/pcd2pgm.rviz\n'}
+[9.968089] (pcd2pgm) StdoutLine: {'line': b'-- Symlinking: /home/robot/pcd2pgm/install/pcd2pgm/share/ament_index/resource_index/package_run_dependencies/pcd2pgm\n'}
+[9.981048] (pcd2pgm) StdoutLine: {'line': b'-- Symlinking: /home/robot/pcd2pgm/install/pcd2pgm/share/ament_index/resource_index/parent_prefix_path/pcd2pgm\n'}
+[9.993841] (pcd2pgm) StdoutLine: {'line': b'-- Symlinking: /home/robot/pcd2pgm/install/pcd2pgm/share/pcd2pgm/environment/ament_prefix_path.sh\n'}
+[10.006674] (pcd2pgm) StdoutLine: {'line': b'-- Symlinking: /home/robot/pcd2pgm/install/pcd2pgm/share/pcd2pgm/environment/ament_prefix_path.dsv\n'}
+[10.018636] (pcd2pgm) StdoutLine: {'line': b'-- Symlinking: /home/robot/pcd2pgm/install/pcd2pgm/share/pcd2pgm/environment/path.sh\n'}
+[10.024430] (-) TimerEvent: {}
+[10.031572] (pcd2pgm) StdoutLine: {'line': b'-- Symlinking: /home/robot/pcd2pgm/install/pcd2pgm/share/pcd2pgm/environment/path.dsv\n'}
+[10.043061] (pcd2pgm) StdoutLine: {'line': b'-- Symlinking: /home/robot/pcd2pgm/install/pcd2pgm/share/pcd2pgm/local_setup.bash\n'}
+[10.057015] (pcd2pgm) StdoutLine: {'line': b'-- Symlinking: /home/robot/pcd2pgm/install/pcd2pgm/share/pcd2pgm/local_setup.sh\n'}
+[10.067907] (pcd2pgm) StdoutLine: {'line': b'-- Symlinking: /home/robot/pcd2pgm/install/pcd2pgm/share/pcd2pgm/local_setup.zsh\n'}
+[10.082520] (pcd2pgm) StdoutLine: {'line': b'-- Symlinking: /home/robot/pcd2pgm/install/pcd2pgm/share/pcd2pgm/local_setup.dsv\n'}
+[10.094218] (pcd2pgm) StdoutLine: {'line': b'-- Symlinking: /home/robot/pcd2pgm/install/pcd2pgm/share/pcd2pgm/package.dsv\n'}
+[10.105962] (pcd2pgm) StdoutLine: {'line': b'-- Symlinking: /home/robot/pcd2pgm/install/pcd2pgm/share/ament_index/resource_index/packages/pcd2pgm\n'}
+[10.116881] (pcd2pgm) StdoutLine: {'line': b'-- Symlinking: /home/robot/pcd2pgm/install/pcd2pgm/share/ament_index/resource_index/rclcpp_components/pcd2pgm\n'}
+[10.124514] (-) TimerEvent: {}
+[10.127417] (pcd2pgm) StdoutLine: {'line': b'-- Symlinking: /home/robot/pcd2pgm/install/pcd2pgm/share/pcd2pgm/cmake/ament_cmake_export_dependencies-extras.cmake\n'}
+[10.137063] (pcd2pgm) StdoutLine: {'line': b'-- Symlinking: /home/robot/pcd2pgm/install/pcd2pgm/share/pcd2pgm/cmake/ament_cmake_export_include_directories-extras.cmake\n'}
+[10.150726] (pcd2pgm) StdoutLine: {'line': b'-- Symlinking: /home/robot/pcd2pgm/install/pcd2pgm/share/pcd2pgm/cmake/ament_cmake_export_libraries-extras.cmake\n'}
+[10.161867] (pcd2pgm) StdoutLine: {'line': b'-- Symlinking: /home/robot/pcd2pgm/install/pcd2pgm/share/pcd2pgm/cmake/pcd2pgmConfig.cmake\n'}
+[10.175976] (pcd2pgm) StdoutLine: {'line': b'-- Symlinking: /home/robot/pcd2pgm/install/pcd2pgm/share/pcd2pgm/cmake/pcd2pgmConfig-version.cmake\n'}
+[10.189072] (pcd2pgm) StdoutLine: {'line': b'-- Symlinking: /home/robot/pcd2pgm/install/pcd2pgm/share/pcd2pgm/package.xml\n'}
+[10.204146] (pcd2pgm) CommandEnded: {'returncode': 0}
+[10.224165] (pcd2pgm) JobEnded: {'identifier': 'pcd2pgm', 'rc': 0}
+[10.224863] (-) TimerEvent: {}
+[10.224970] (-) EventReactorShutdown: {}
