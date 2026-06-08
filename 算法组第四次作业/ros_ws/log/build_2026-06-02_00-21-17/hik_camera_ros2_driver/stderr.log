@@ -1,0 +1,10 @@
+[0mIn this package, headers install destination is set to `include` by ament_auto_package. It is recommended to install `include/hik_camera_ros2_driver` instead and will be the default behavior of ament_auto_package from ROS 2 Kilted Kaiju. On distributions before Kilted, ament_auto_package behaves the same way when you use USE_SCOPED_HEADER_INSTALL_DIR option.[0m
+In file included from [01m[K/home/robot/ros_ws/src/hik_camera_ros2_driver/src/hik_camera_node.cpp:1[m[K:
+[01m[K/home/robot/ros_ws/src/hik_camera_ros2_driver/include/hik_camera_ros2_driver/hik_camera_node.hpp:7:10:[m[K [01;31m[Kfatal error: [m[Kcamera_info_manager/camera_info_manager.hpp: 没有那个文件或目录
+    7 | #include [01;31m[K"camera_info_manager/camera_info_manager.hpp"[m[K
+      |          [01;31m[K^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+compilation terminated.
+gmake[2]: *** [CMakeFiles/hik_camera_ros2_driver.dir/build.make:76：CMakeFiles/hik_camera_ros2_driver.dir/src/hik_camera_node.cpp.o] 错误 1
+gmake[1]: *** [CMakeFiles/Makefile2:139：CMakeFiles/hik_camera_ros2_driver.dir/all] 错误 2
+gmake[1]: *** 正在等待未完成的任务....
+gmake: *** [Makefile:146：all] 错误 2
